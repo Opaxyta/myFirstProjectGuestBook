@@ -1,0 +1,452 @@
+::placeholder {
+	color: yellow;
+}
+.trueReg {
+	color: #099DD1;
+	font-size: 20px;
+}
+.messageDelete {
+	color: #099DD1;
+	font-size: 20px;
+}
+.errors {
+	color: #FA3005;
+	font-size: 20px;
+}
+.pRegAut {
+	color: white;
+	font-size: 20px;
+}
+.boxAut a {
+	color: #D19C17;
+}
+.boxReg a {
+	color: #D19C17;
+}
+.boxAut a:hover {
+	opacity: 0.9;
+	color: #FCF642;
+}
+.boxReg a:hover {
+	opacity: 0.9;
+	color: #FCF642;
+}
+.imgUpper {
+	width: 100%;
+}
+.background {
+	background-image: url('../uploads/imageBackground.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.boxReg {
+	width: 350px;
+	padding: 60px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: black;
+}
+.boxAut {
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: black;
+}
+.boxReg label {
+	color: #84D105;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.boxReg input[type = "text"],.boxReg input[type = "password"],.boxReg input[type="email"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.75s;
+}
+.boxReg input[type = "text"]:focus,.boxReg input[type = "password"]:focus,.boxReg input[type="email"]:focus {
+	width: 280px;
+	border-color: #84D105;
+}
+.boxReg button[type = "submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.5s;
+	cursor: pointer;
+}
+.boxReg button[type = "submit"]:hover {
+	background: #84D105;
+}
+
+
+.boxAut label {
+	color: #84D105;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.boxAut input[type = "text"],.boxAut input[type = "password"],.boxAut input[type="email"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.75s;
+}
+.boxAut input[type = "text"]:focus,.boxAut input[type = "password"]:focus,.boxAut input[type="email"]:focus {
+	width: 280px;
+	border-color: #84D105;
+}
+.boxAut button[type = "submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.5s;
+	cursor: pointer;
+}
+.boxAut button[type = "submit"]:hover {
+	background: #84D105;
+}
+nav {
+	width: 1890px;
+	margin: 0 auto;
+}
+nav:before {
+	content: '';
+	display: block;
+	height: 50px;
+	width: 99.1%;
+	background: black;
+	position: absolute;
+	z-index: -1;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+}
+ul li {
+	float: left;
+}
+ul li a {
+	color: #fff;
+	display: block;
+	height: 50px;
+	padding: 0 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 50px;
+}
+ul li a:hover {
+	background: #A680AA;
+	transition: 0.5s;
+}
+.h3index {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.boxSendComment {
+	width: 45em;
+	padding: 80px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: black;
+}
+.boxSendComment label {
+	font-size: 25px;
+	color: white;
+}
+.boxSendComment textarea {
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	font-weight: 600;
+	overflow: auto;
+	resize: none;
+	width: 700px;
+	height: 200px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	transition: 0.75s;
+	outline: none;
+}
+.boxSendComment textarea:focus {
+	border: 2px solid #84D105;
+}
+.boxSendComment button {
+	border: 0;
+	background: none;
+	margin: 5px;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.5s;
+	cursor: pointer;
+
+}
+.boxSendComment button:hover {
+	background: #84D105;
+}
+.h2index {
+	padding-top: 500px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.boxShowComment {
+	width: 45em;
+	padding: 80px;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,0%);
+	text-align: center;
+	background: black;
+}
+.pShowComment {
+	height: 10px;
+}
+.boxShowComment div {
+	text-align: center;
+	color: #D4830C;
+	font-size: 16px;
+	font-weight: 500;
+}
+.boxShowComment img {
+	height: 225px;
+	width: 225px;
+	border: 2px solid #D4830C;
+}
+.boxShowComment textarea {
+	resize: none;
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	font-weight: 900;
+	overflow: auto;
+	resize: none;
+	width: 700px;
+	height: 200px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	outline: none;
+}
+.aPageIndex {
+	text-decoration: none;
+	background-color: black;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+.aPageIndex:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.aPageIndexActive {
+	text-decoration: none;
+	background-color: white;
+	padding: 5px;
+	color: black;
+	text-align: center;
+}
+.h1delProfile {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.boxDel {
+	width: 25em;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: black;
+}
+.boxDel input[type = "password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.75s;
+}
+.boxDel input[type = "password"]:focus {
+	width: 280px;
+	border-color: #84D105;
+}
+.boxDel label {
+	color: #84D105;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.boxDel button {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.5s;
+	cursor: pointer;
+}
+.boxDel button:hover {
+	background: #84D105;
+}
+.h2Delete {
+	padding-top: 529px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+	color:#24FF00;
+}
+.h1Profile {
+	text-align: left;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.infoProfile {
+	width: auto;
+	padding: 20px;
+	position: absolute;
+	top: 30%;
+	left: 0.3%;
+	text-align: center;
+	background: black;
+}
+.infoProfile div {
+	text-align: center;
+	color: #D4830C;
+	font-size: 16px;
+	font-weight: 500;
+}
+.infoProfile img {
+	height: 225px;
+	width: 225px;
+	border: 2px solid #D4830C;
+}
+.h2Profile {
+	padding-top: 350px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.boxUpdateProfile {
+	width: auto;
+	padding: 20px;
+	position: absolute;
+	top: 80%;
+	left: 0.3%;
+	text-align: center;
+	background: black;
+}
+.boxUpdateProfile input {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.75s;
+}
+.boxUpdateProfile input:focus {
+	width: 280px;
+	border-color: #84D105;
+}
+.boxUpdateProfile button {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid yellow;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.5s;
+	cursor: pointer;
+}
+.boxUpdateProfile button:hover {
+	background: #84D105;
+}
+.boxUpdateProfile div {
+	color: #84D105;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.boxUpdateProfile span {
+	color: #099DD1;
+	font-size: 20px;
+}
